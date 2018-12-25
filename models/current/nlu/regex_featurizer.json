@@ -1,0 +1,6 @@
+[
+    {
+        "name": "email_groupname",
+        "pattern": "\\d*"
+    }
+]

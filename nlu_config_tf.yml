@@ -1,0 +1,11 @@
+language: "zh"
+
+pipeline:
+- name: "tokenizer_jieba"
+  dictionary_path: "./dict"
+- name: "intent_entity_featurizer_regex"
+- name: "ner_crf"
+- name: "ner_synonyms"
+- name: "intent_featurizer_count_vectors"
+  "token_pattern": '(?u)\b\w+\b'    #\b:匹配一个单词边界,\w:匹配字母数字,+:匹配一个或多个
+- name: "intent_classifier_tensorflow_embedding"

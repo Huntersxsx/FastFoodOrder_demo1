@@ -1,0 +1,2277 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删掉",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我删掉一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我删除一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "删",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要删一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么创建邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要创建一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "删掉",
+            "entity": "email_op"
+          }
+        ],
+        "text": "帮我把这个邮箱群组删掉"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么删除邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "请问怎么删除一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想创建一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "请问怎么在邮箱里新建一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删掉",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想删掉邮箱里的一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么删除群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "群组",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "删除",
+            "entity": "email_op"
+          }
+        ],
+        "text": "怎么把这个群组删了"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么建一个新的群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么在邮箱里建群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想在邮箱里新建一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "可以帮我新建一个邮箱群组吗"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我建个新的群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我删了这个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要创建新的群组"
+      },
+      {
+        "intent": "email_inform_group_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "3451",
+            "entity": "email_groupname"
+          }
+        ],
+        "text": "3451"
+      },
+      {
+        "intent": "email_inform_group_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "email_groupname"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "有邮件在隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "怎么处理隔离区邮件"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "为什么这个邮件在隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的隔离区有封邮件,这是什么意思"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "邮件在隔离区怎么办"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "怎么看隔离区里边的邮件"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么把邮件移出隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我有邮件发到了隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我不想让邮件发到隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "隔离区有邮件是什么原因"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "OUTLOOK",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "OUTLOOK无法发起会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "怎样用邮箱预定会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "会议",
+            "entity": "email_realated_obj"
+          }
+        ],
+        "text": "我的outlook不能定会议了"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Outlook",
+            "entity": "item"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "为什么在Outlook里不能用skypy发起会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我想用skypy发起会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "怎么用outlook预定会议呢"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我要预约一个会议用skypy"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 1,
+            "end": 8,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "用outlook预定会议失败是怎么回事"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 1,
+            "end": 8,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "用outlook怎么预定会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "会议",
+            "entity": "email_realated_obj"
+          }
+        ],
+        "text": "我不能用skypy定会议了"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "关联",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "手机如何关联邮箱"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮箱与手机无法同步, 如何配置"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "链接",
+            "entity": "email_op"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "手机装了公司邮箱无法链接到服务器"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "关联",
+            "entity": "email_op"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "链接",
+            "entity": "email_op"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我想把我的公司的邮箱跟手机绑定，但是没有办法连接上服务器"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "访问",
+            "entity": "email_op"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我的移动设备因为服务器策略而被拒绝访问服务器"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我的手机怎么和邮箱关联起来"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "怎么把手机和邮箱关联起来"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "关联",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "手机怎么关联邮箱"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "公司的邮箱怎样和手机绑定呢"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我要把手机和我的邮箱绑定起来"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "发送",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "不能发送邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "value": "发送",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件发不出去"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "退回",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件被退回"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "发送",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件发送失败"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱怎么发不出去邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱发不出去邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "发送",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件发送失败"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱不能发邮件了"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱怎么发不了邮件了呢"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "退回",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮箱发的邮件被退回怎么办"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我发不了邮件了"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我发不出邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我发不出邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "收到",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件没有收到"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "但是大区这边的话没有在邮件里找到审批的邮件，然后那个ESM系统里也没有"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "收到",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我收不到邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 3,
+            "end": 4,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我怎么收不到邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "有人给我发了一封邮件,邮箱里没有邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱怎么收不到邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 3,
+            "end": 4,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我现在收不到邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我收不到邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "邮箱突然收不到邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "邮箱收不到邮件怎么办呢"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "有一封邮件发过来之后在邮箱里没看到"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "收件箱里找不到我的那个邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "邮件没有在邮箱找到"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "找不到我的邮件了"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "修改",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么修改邮箱的个性签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "修改",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要改一下邮箱的签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想改一下邮箱的个性签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "个性签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "value": "改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮箱的个性签名怎么改呢"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想改邮箱里的个性签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "value": "改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我要把邮箱的签名改成英文的"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我现在需要改一下邮箱签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "怎么把邮箱签名改成中文"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "请问怎么改邮箱的那个签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "个性签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "value": "修改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我需要把个性签名换成英文的"
+      },
+      {
+        "intent": "email_prompting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "收到",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "提示",
+            "entity": "email_state"
+          }
+        ],
+        "text": "收到了一个邮件, 邮件提示软件证书更新"
+      },
+      {
+        "intent": "email_prompting",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "收到",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "提示",
+            "entity": "email_state"
+          }
+        ],
+        "text": "我收到了一封邮件告诉我说，我的移动设备因为服务器策略而被拒绝访问被服务器"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我们公司的邮箱是多少"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我要查一查我们公司的邮箱"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "请告诉我我们公司的邮箱地址"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我想查一下公司邮箱"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "咱们公司的邮箱地址是什么"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我还需要公司邮箱地址"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "公司的邮箱是多少"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我不知道咱们公司的邮箱"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "能告诉我一下公司的邮箱地址吗"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我没有公司的邮箱"
+      },
+      {
+        "intent": "email_other",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "输入",
+            "entity": "email_op"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "安装了一个软件,添加账户的时候它说让输入您的工作电子邮件或者是IT部门提供的服务器地址，然后我输了我自己的邮件但是添加不上。显示错误"
+      },
+      {
+        "intent": "email_other",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "邮箱地址",
+            "entity": "email_item"
+          }
+        ],
+        "text": "没有这个邮箱地址"
+      },
+      {
+        "intent": "email_ok",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "好了",
+            "entity": "email_state"
+          }
+        ],
+        "text": "我的邮箱好了"
+      },
+      {
+        "intent": "email_ok",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "好了",
+            "entity": "emails_state"
+          }
+        ],
+        "text": "我的邮箱没有问题了"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "email_groupname",
+        "pattern": "\\d*"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "创建",
+        "synonyms": [
+          "新建",
+          "建"
+        ]
+      },
+      {
+        "value": "删除",
+        "synonyms": [
+          "删了",
+          "删掉",
+          "删"
+        ]
+      },
+      {
+        "value": "预定",
+        "synonyms": [
+          "发起",
+          "定",
+          "预约"
+        ]
+      },
+      {
+        "value": "关联",
+        "synonyms": [
+          "同步",
+          "绑定"
+        ]
+      },
+      {
+        "value": "链接",
+        "synonyms": [
+          "连接"
+        ]
+      },
+      {
+        "value": "手机",
+        "synonyms": [
+          "移动设备"
+        ]
+      },
+      {
+        "value": "发送",
+        "synonyms": [
+          "发"
+        ]
+      },
+      {
+        "value": "收到",
+        "synonyms": [
+          "收"
+        ]
+      },
+      {
+        "value": "修改",
+        "synonyms": [
+          "改",
+          "换"
+        ]
+      },
+      {
+        "value": "个性签名",
+        "synonyms": [
+          "签名"
+        ]
+      },
+      {
+        "value": "提示",
+        "synonyms": [
+          "告诉"
+        ]
+      },
+      {
+        "value": "好了",
+        "synonyms": [
+          "没有问题"
+        ]
+      },
+      {
+        "value": "邮箱",
+        "synonyms": [
+          "邮件",
+          "OUTLOOK",
+          "电子邮件",
+          "Outlook",
+          "outlook"
+        ]
+      },
+      {
+        "value": "邮箱群组",
+        "synonyms": [
+          "群组",
+          "群"
+        ]
+      }
+    ]
+  }
+}
