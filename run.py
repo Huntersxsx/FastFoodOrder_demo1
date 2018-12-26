@@ -1,7 +1,7 @@
 from rasa_nlu.model import Interpreter
 import json
-interpreter = Interpreter.load("./models/current/nlu")
-message = "怎么修改邮箱的个性签名?"
+interpreter = Interpreter.load("./projects-tf/nlu/BNQ")
+message = "我想听歌"
 result = interpreter.parse(message)
 print(json.dumps(result, indent=2))
 
@@ -16,3 +16,5 @@ print(json.dumps(result, indent=2))
 #怎么知道哪些词是jieba分不出来的？
 #token_pattern，汉字、数字、字母
 #有了jieba为什么还要token_pattern？
+
+
