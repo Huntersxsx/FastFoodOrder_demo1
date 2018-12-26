@@ -51,7 +51,7 @@
 
 ## intent:email_association
 - [手机](email_item)如何[关联](email_op)[邮箱](item)
-- [邮箱](item)与[手机](email_item)无法[同步](email_op:关联), 如何配置
+- 邮箱与[手机](email_item)无法[同步](email_op:关联), 如何配置
 - [手机](email_item)装了公司[邮箱](item)无法[链接](email_op)到[服务器](email_related_obj)
 - 我想把我的公司的[邮箱](item)跟[手机](email_item)[绑定](email_op:关联)，但是没有办法[连接](email_op:链接)上[服务器](email_related_obj)
 - 我的[移动设备](email_item:手机)因为[服务器](email_related_obj)策略而被拒绝[访问](email_op)[服务器](email_related_obj)
@@ -146,5 +146,3 @@
 
 ## regex:email_groupname
 - \d*
-
-

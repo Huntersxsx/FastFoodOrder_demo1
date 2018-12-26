@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/sunxin/Documents/LearningOthers/Rasa_demo/demo3/projects-tf/nlu/BNQ/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/sunxin/Documents/LearningOthers/Rasa_demo/demo3/projects-tf/nlu/BNQ/intent_classifier_tensorflow_embedding.ckpt"

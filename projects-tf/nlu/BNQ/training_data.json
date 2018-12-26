@@ -1,0 +1,7921 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删掉",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我删掉一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我删除一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "删",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要删一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么创建邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要创建一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "删掉",
+            "entity": "email_op"
+          }
+        ],
+        "text": "帮我把这个邮箱群组删掉"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么删除邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "请问怎么删除一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想创建一个邮箱群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "请问怎么在邮箱里新建一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删掉",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想删掉邮箱里的一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么删除群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "群组",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "删除",
+            "entity": "email_op"
+          }
+        ],
+        "text": "怎么把这个群组删了"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么建一个新的群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么在邮箱里建群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想在邮箱里新建一个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "可以帮我新建一个邮箱群组吗"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我建个新的群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "帮我删了这个群组"
+      },
+      {
+        "intent": "email_group",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "创建",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "群组",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要创建新的群组"
+      },
+      {
+        "intent": "email_inform_group_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "3451",
+            "entity": "email_groupname"
+          }
+        ],
+        "text": "3451"
+      },
+      {
+        "intent": "email_inform_group_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "email_groupname"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "有邮件在隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "怎么处理隔离区邮件"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "为什么这个邮件在隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的隔离区有封邮件,这是什么意思"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "邮件在隔离区怎么办"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "怎么看隔离区里边的邮件"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么把邮件移出隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我有邮件发到了隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "隔离区",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我不想让邮件发到隔离区"
+      },
+      {
+        "intent": "email_isolation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "隔离区",
+            "entity": "email_item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "隔离区有邮件是什么原因"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "OUTLOOK",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "OUTLOOK无法发起会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "怎样用邮箱预定会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "会议",
+            "entity": "email_realated_obj"
+          }
+        ],
+        "text": "我的outlook不能定会议了"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Outlook",
+            "entity": "item"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "为什么在Outlook里不能用skypy发起会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我想用skypy发起会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "怎么用outlook预定会议呢"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我要预约一个会议用skypy"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 1,
+            "end": 8,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "用outlook预定会议失败是怎么回事"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 1,
+            "end": 8,
+            "value": "outlook",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "会议",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "用outlook怎么预定会议"
+      },
+      {
+        "intent": "email_conference",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "预定",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "会议",
+            "entity": "email_realated_obj"
+          }
+        ],
+        "text": "我不能用skypy定会议了"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "关联",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "手机如何关联邮箱"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮箱与手机无法同步, 如何配置"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "链接",
+            "entity": "email_op"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "手机装了公司邮箱无法链接到服务器"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "关联",
+            "entity": "email_op"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "链接",
+            "entity": "email_op"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我想把我的公司的邮箱跟手机绑定，但是没有办法连接上服务器"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "访问",
+            "entity": "email_op"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "服务器",
+            "entity": "email_related_obj"
+          }
+        ],
+        "text": "我的移动设备因为服务器策略而被拒绝访问服务器"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我的手机怎么和邮箱关联起来"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "怎么把手机和邮箱关联起来"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "关联",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "手机怎么关联邮箱"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "公司的邮箱怎样和手机绑定呢"
+      },
+      {
+        "intent": "email_association",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "手机",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "关联",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我要把手机和我的邮箱绑定起来"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "发送",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "不能发送邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "value": "发送",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件发不出去"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "退回",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件被退回"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "发送",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件发送失败"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱怎么发不出去邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱发不出去邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "发送",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件发送失败"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱不能发邮件了"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱怎么发不了邮件了呢"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "退回",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮箱发的邮件被退回怎么办"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我发不了邮件了"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我发不出邮件"
+      },
+      {
+        "intent": "email_sending",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我发不出邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "收到",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮件没有收到"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "但是大区这边的话没有在邮件里找到审批的邮件，然后那个ESM系统里也没有"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "收到",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我收不到邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 3,
+            "end": 4,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我怎么收不到邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "有人给我发了一封邮件,邮箱里没有邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱怎么收不到邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 3,
+            "end": 4,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我现在收不到邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "我收不到邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "邮箱突然收不到邮件了"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "value": "收",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "邮箱收不到邮件怎么办呢"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "有一封邮件发过来之后在邮箱里没看到"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "收件箱里找不到我的那个邮件"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "邮件没有在邮箱找到"
+      },
+      {
+        "intent": "email_receiving",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "找不到我的邮件了"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "修改",
+            "entity": "email_op"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "怎么修改邮箱的个性签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "修改",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我要改一下邮箱的签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想改一下邮箱的个性签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "个性签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "value": "改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "邮箱的个性签名怎么改呢"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "个性签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我想改邮箱里的个性签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "value": "改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我要把邮箱的签名改成英文的"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "我现在需要改一下邮箱签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "怎么把邮箱签名改成中文"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "改",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "签名",
+            "entity": "email_item"
+          }
+        ],
+        "text": "请问怎么改邮箱的那个签名"
+      },
+      {
+        "intent": "email_modification",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "个性签名",
+            "entity": "email_item"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "value": "修改",
+            "entity": "email_op"
+          }
+        ],
+        "text": "我需要把个性签名换成英文的"
+      },
+      {
+        "intent": "email_prompting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "收到",
+            "entity": "email_op"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "提示",
+            "entity": "email_state"
+          }
+        ],
+        "text": "收到了一个邮件, 邮件提示软件证书更新"
+      },
+      {
+        "intent": "email_prompting",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "收到",
+            "entity": "email_op"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮件",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "提示",
+            "entity": "email_state"
+          }
+        ],
+        "text": "我收到了一封邮件告诉我说，我的移动设备因为服务器策略而被拒绝访问被服务器"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我们公司的邮箱是多少"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我要查一查我们公司的邮箱"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "请告诉我我们公司的邮箱地址"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我想查一下公司邮箱"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "咱们公司的邮箱地址是什么"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我还需要公司邮箱地址"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "公司的邮箱是多少"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我不知道咱们公司的邮箱"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "能告诉我一下公司的邮箱地址吗"
+      },
+      {
+        "intent": "email_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "公司",
+            "entity": "email_item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我没有公司的邮箱"
+      },
+      {
+        "intent": "email_other",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "输入",
+            "entity": "email_op"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "邮件",
+            "entity": "item"
+          }
+        ],
+        "text": "安装了一个软件,添加账户的时候它说让输入您的工作电子邮件或者是IT部门提供的服务器地址，然后我输了我自己的邮件但是添加不上。显示错误"
+      },
+      {
+        "intent": "email_other",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "邮箱地址",
+            "entity": "email_item"
+          }
+        ],
+        "text": "没有这个邮箱地址"
+      },
+      {
+        "intent": "email_ok",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "好了",
+            "entity": "email_state"
+          }
+        ],
+        "text": "我的邮箱好了"
+      },
+      {
+        "intent": "email_ok",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "好了",
+            "entity": "emails_state"
+          }
+        ],
+        "text": "我的邮箱没有问题了"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "bye",
+        "text": "再见"
+      },
+      {
+        "intent": "bye",
+        "text": "好的，谢谢你"
+      },
+      {
+        "intent": "bye",
+        "text": "谢谢啦"
+      },
+      {
+        "intent": "bye",
+        "text": "多谢多谢"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不是"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不行"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不中"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不对"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不对不对"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不对呀"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "错了"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不是呀"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不是这样的"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不是这个问题"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "我不是这个意思"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "no"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "n"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不对啊"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "还是不对"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "还是不对啊"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "还是不对呀"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不是这个"
+      },
+      {
+        "intent": "deny_naive",
+        "text": "不"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没有了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没有别的了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没有了哦"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没了哦"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没有了呀"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没了呀"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没了哈"
+      },
+      {
+        "intent": "deny_help",
+        "text": "没有了哈"
+      },
+      {
+        "intent": "deny_help",
+        "text": "不用了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "暂时不用了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "好的没了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "好的不用了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "不要"
+      },
+      {
+        "intent": "deny_help",
+        "text": "不需要"
+      },
+      {
+        "intent": "deny_help",
+        "text": "暂时不要了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "算了"
+      },
+      {
+        "intent": "deny_help",
+        "text": "算了吧"
+      },
+      {
+        "intent": "deny_help",
+        "text": "不需要了"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "不记得了"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "不知道"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "忘记了"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "不确定"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "记不清了"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "账号忘记了怎么办"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "不知道是哪个系统呀"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "想不起来了怎么办"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "想不起来了"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "不确定呀"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "我也不知道"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "我不知道啊"
+      },
+      {
+        "intent": "deny_unclear",
+        "text": "不太确定"
+      },
+      {
+        "intent": "deny_question",
+        "text": "你问职位做什么"
+      },
+      {
+        "intent": "deny_question",
+        "text": "可以不提供职位信息吗"
+      },
+      {
+        "intent": "deny_question",
+        "text": "可以不说吗"
+      },
+      {
+        "intent": "deny_question",
+        "text": "为什么要问这个信息"
+      },
+      {
+        "intent": "deny_question",
+        "text": "你问我这个做什么"
+      },
+      {
+        "intent": "deny_question",
+        "text": "你问这个做啥"
+      },
+      {
+        "intent": "confirm",
+        "text": "好的"
+      },
+      {
+        "intent": "confirm",
+        "text": "正确"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的"
+      },
+      {
+        "intent": "confirm",
+        "text": "对的"
+      },
+      {
+        "intent": "confirm",
+        "text": "对呀"
+      },
+      {
+        "intent": "confirm",
+        "text": "是对的呀"
+      },
+      {
+        "intent": "confirm",
+        "text": "对"
+      },
+      {
+        "intent": "confirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm",
+        "text": "是"
+      },
+      {
+        "intent": "confirm",
+        "text": "行"
+      },
+      {
+        "intent": "confirm",
+        "text": "没问题"
+      },
+      {
+        "intent": "confirm",
+        "text": "确定没问题"
+      },
+      {
+        "intent": "confirm",
+        "text": "没错"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "密码是对的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "密码没问题"
+      },
+      {
+        "intent": "confirm",
+        "text": "是对的"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "有"
+      },
+      {
+        "intent": "confirm",
+        "text": "有的"
+      },
+      {
+        "intent": "confirm",
+        "text": "要的"
+      },
+      {
+        "intent": "confirm",
+        "text": "需要的"
+      },
+      {
+        "intent": "confirm",
+        "text": "好"
+      },
+      {
+        "intent": "confirm",
+        "text": "需要"
+      },
+      {
+        "intent": "confirm",
+        "text": "确定"
+      },
+      {
+        "intent": "confirm",
+        "text": "确定呀"
+      },
+      {
+        "intent": "confirm",
+        "text": "知道了"
+      },
+      {
+        "intent": "confirm",
+        "text": "好的，知道了"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱有问题"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱出了点问题"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "邮箱",
+            "entity": "item"
+          }
+        ],
+        "text": "我的邮箱不知道怎么回事"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "账号",
+            "entity": "item"
+          }
+        ],
+        "text": "我的账号有问题"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "账号",
+            "entity": "item"
+          }
+        ],
+        "text": "我的账号出了点问题"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "账号",
+            "entity": "item"
+          }
+        ],
+        "text": "我的账号不知道怎么回事"
+      },
+      {
+        "intent": "inform_item",
+        "text": "我还有一个问题"
+      },
+      {
+        "intent": "inform_item",
+        "text": "好的，还有一个问题"
+      },
+      {
+        "intent": "other",
+        "text": "今天天气怎么样？"
+      },
+      {
+        "intent": "other",
+        "text": "你叫什么名字啊？"
+      },
+      {
+        "intent": "other",
+        "text": "你有多高呀？"
+      },
+      {
+        "intent": "other",
+        "text": "你的体重是多少？"
+      },
+      {
+        "intent": "other",
+        "text": "昨天看比赛了吗？"
+      },
+      {
+        "intent": "other",
+        "text": "帮我查一下附近有什么火锅店吧"
+      },
+      {
+        "intent": "other",
+        "text": "我要订明天去上海的机票"
+      },
+      {
+        "intent": "other",
+        "text": "什么时候放假啊？"
+      },
+      {
+        "intent": "other",
+        "text": "晚饭好了吗？"
+      },
+      {
+        "intent": "other",
+        "text": "你会打篮球吗？"
+      },
+      {
+        "intent": "other",
+        "text": "你喜欢什么游戏呀？"
+      },
+      {
+        "intent": "other",
+        "text": "你看过《时间简史》吗？"
+      },
+      {
+        "intent": "other",
+        "text": "我觉得《平凡的世界》很好看，你觉得呢？"
+      },
+      {
+        "intent": "other",
+        "text": "我要订两张明天的电影票"
+      },
+      {
+        "intent": "other",
+        "text": "明天下雨吗？"
+      },
+      {
+        "intent": "other",
+        "text": "明早要上课，帮我设一个七点的闹钟吧"
+      },
+      {
+        "intent": "other",
+        "text": "我要买两张迪士尼的门票"
+      },
+      {
+        "intent": "other",
+        "text": "晚上一起去k歌怎么样？"
+      },
+      {
+        "intent": "other",
+        "text": "你喜欢游泳吗？"
+      },
+      {
+        "intent": "other",
+        "text": "公司离地铁站有多远啊？"
+      },
+      {
+        "intent": "other",
+        "text": "我想听张敬轩的歌"
+      },
+      {
+        "intent": "other",
+        "text": "给我放一首周杰伦的歌吧"
+      },
+      {
+        "intent": "other",
+        "text": "我想买一件羽绒服"
+      },
+      {
+        "intent": "other",
+        "text": "要放假了，帮我订张回家的火车票吧"
+      },
+      {
+        "intent": "other",
+        "text": "我想住一个比较干净的酒店"
+      },
+      {
+        "intent": "other",
+        "text": "这家宾馆多少钱一晚？"
+      },
+      {
+        "intent": "other",
+        "text": "今晚要去打羽毛球，记得提醒我"
+      },
+      {
+        "intent": "other",
+        "text": "这道题好难呀，有什么简便方法吗？"
+      },
+      {
+        "intent": "other",
+        "text": "这部电影好有意思啊"
+      },
+      {
+        "intent": "other",
+        "text": "中国的首都是北京，那么美国的首都是哪里呢？"
+      },
+      {
+        "intent": "other",
+        "text": "我要买一部手机，华为的怎么样？"
+      },
+      {
+        "intent": "other",
+        "text": "播放下一首歌"
+      },
+      {
+        "intent": "other",
+        "text": "这部电影我看过了，换一部吧"
+      },
+      {
+        "intent": "other",
+        "text": "明年我要去日本旅游"
+      },
+      {
+        "intent": "other",
+        "text": "西安有什么景点值得一去的呀？"
+      },
+      {
+        "intent": "other",
+        "text": "哈哈哈哈哈"
+      },
+      {
+        "intent": "other",
+        "text": "东方明珠是上海的一个景点"
+      },
+      {
+        "intent": "other",
+        "text": "厦门在海边，是个旅游胜地"
+      },
+      {
+        "intent": "other",
+        "text": "你是哪个大学毕业的？"
+      },
+      {
+        "intent": "other",
+        "text": "你在哪里上学呀？"
+      },
+      {
+        "intent": "other",
+        "text": "明天同学聚会，别忘了"
+      },
+      {
+        "intent": "other",
+        "text": "下雪了，一起堆雪人吧"
+      },
+      {
+        "intent": "other",
+        "text": "帮我把空调打开"
+      },
+      {
+        "intent": "other",
+        "text": "我有些冷，空调调高一点吧"
+      },
+      {
+        "intent": "other",
+        "text": "奖学金发了吗？"
+      },
+      {
+        "intent": "other",
+        "text": "我看一下我的余额还有多少"
+      },
+      {
+        "intent": "other",
+        "text": "我喜欢喝咖啡"
+      },
+      {
+        "intent": "other",
+        "text": "你今年多大了"
+      },
+      {
+        "intent": "other",
+        "text": "我用的是Mac OS系统，对Windows系统不熟悉"
+      },
+      {
+        "intent": "other",
+        "text": "今晚要复习了"
+      },
+      {
+        "intent": "other",
+        "text": "我的QQ号是12345678"
+      },
+      {
+        "intent": "other",
+        "text": "马云是阿里巴巴的CEO"
+      },
+      {
+        "intent": "other",
+        "text": "你会用Python吗"
+      },
+      {
+        "intent": "other",
+        "text": "明早要面试了，有点紧张"
+      },
+      {
+        "intent": "other",
+        "text": "我好开心呀"
+      },
+      {
+        "intent": "other",
+        "text": "我很生气，后果很严重"
+      },
+      {
+        "intent": "other",
+        "text": "我现在有些伤心，快来安慰我"
+      },
+      {
+        "intent": "other",
+        "text": "我有点难过，让我一个人静一静"
+      },
+      {
+        "intent": "other",
+        "text": "你能不能安静一些"
+      },
+      {
+        "intent": "other",
+        "text": "我要睡觉了"
+      },
+      {
+        "intent": "other",
+        "text": "我饿了，想吃晚饭"
+      },
+      {
+        "intent": "other",
+        "text": "我有点困，午睡一会吧"
+      },
+      {
+        "intent": "other",
+        "text": "陈奕迅的这首歌挺好听的"
+      },
+      {
+        "intent": "other",
+        "text": "我要开始找工作了"
+      },
+      {
+        "intent": "other",
+        "text": "这个任务很轻松！"
+      },
+      {
+        "intent": "other",
+        "text": "我有点累，我要休息一会"
+      },
+      {
+        "intent": "other",
+        "text": "我看不清这上面写的什么"
+      },
+      {
+        "intent": "other",
+        "text": "我要喝牛奶"
+      },
+      {
+        "intent": "other",
+        "text": "我忘了吃早饭"
+      },
+      {
+        "intent": "other",
+        "text": "我今早是骑车来的"
+      },
+      {
+        "intent": "other",
+        "text": "你买车了吗？"
+      },
+      {
+        "intent": "other",
+        "text": "我还没有上海户口"
+      },
+      {
+        "intent": "other",
+        "text": "我在北京有一套房"
+      },
+      {
+        "intent": "other",
+        "text": "今天是圣诞节"
+      },
+      {
+        "intent": "other",
+        "text": "还有几天就要过年了"
+      },
+      {
+        "intent": "other",
+        "text": "今天美元的汇率是多少？"
+      },
+      {
+        "intent": "other",
+        "text": "我的身份证丢了"
+      },
+      {
+        "intent": "other",
+        "text": "我的银行卡在钱包里"
+      },
+      {
+        "intent": "other",
+        "text": "帮我把这份文件复印一下吧"
+      },
+      {
+        "intent": "other",
+        "text": "我的学生证找不到了"
+      },
+      {
+        "intent": "other",
+        "text": "大学生旅游有半价优惠"
+      },
+      {
+        "intent": "other",
+        "text": "我们毕业之后一起去泰国旅行吧！"
+      },
+      {
+        "intent": "other",
+        "text": "今天天气有些干"
+      },
+      {
+        "intent": "other",
+        "text": "这几天都会下雨"
+      },
+      {
+        "intent": "other",
+        "text": "我忘了带雨伞"
+      },
+      {
+        "intent": "other",
+        "text": "昨天考研结束了"
+      },
+      {
+        "intent": "other",
+        "text": "我今晚要呆在实验室里整理数据"
+      },
+      {
+        "intent": "other",
+        "text": "我在英国呆了三年"
+      },
+      {
+        "intent": "other",
+        "text": "近几年全球变暖，我们要注意低碳环保"
+      },
+      {
+        "intent": "other",
+        "text": "今天温度好高呀"
+      },
+      {
+        "intent": "other",
+        "text": "今天太阳不错，可以晒被子"
+      },
+      {
+        "intent": "other",
+        "text": "今天太阳晒得很舒服"
+      },
+      {
+        "intent": "other",
+        "text": "我的衣服还在外面"
+      },
+      {
+        "intent": "other",
+        "text": "明天可能有冰雹"
+      },
+      {
+        "intent": "other",
+        "text": "我们一起打雪仗吧"
+      },
+      {
+        "intent": "other",
+        "text": "明天就要考试了，但是我一点都不慌"
+      },
+      {
+        "intent": "other",
+        "text": "我喜欢吃香蕉"
+      },
+      {
+        "intent": "other",
+        "text": "香蕉、苹果、橘子、西瓜、梨都是水果"
+      },
+      {
+        "intent": "other",
+        "text": "这个表情包很搞笑啊"
+      },
+      {
+        "intent": "other",
+        "text": "我想喝奶茶，附近有的卖吗？"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我前两天刚改了密码，然后还是不对"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "key",
+            "entity": "account_system"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我需要修改一下key账号的密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我需要重置一下密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "要更改密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "你帮我查下我的密码是不是要重置了呀"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "KEY",
+            "entity": "account_system"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "KEY账号密码过期了，你帮我重置一下"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我的密码需要重置"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我密码忘记了"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "把我的密码帮我改一下"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "IPAD",
+            "entity": "account_system"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我的那个IPAD的密码锁屏密码忘记了，然后您能帮我重置一下吗"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我想重置一下密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "IPAD",
+            "entity": "account_system"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "IPAD的这个开机密码忘记了"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我的密码过期了"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我想那个修改一个密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我想改一下密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "密码昨天过期了"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我的密码过期了，要重置一下"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "提示我密码不正确"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "密码",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "密码快过期了，想重置一下密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "您好，我想改一下密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "请帮我重置一下密码"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我的密码有问题"
+      },
+      {
+        "intent": "account_request_reset_password",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "我想要重置密码"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "登陆",
+            "entity": "item"
+          }
+        ],
+        "text": "我不知道怎么登陆"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "登陆",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "阿凡达",
+            "entity": "account_syste"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "我想登陆阿凡达的系统跟掌上AZ系统都登录不上去"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "易活动",
+            "entity": "account_system"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "我的易活动现在登不进去"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "value": "CUNCUR",
+            "entity": "account_system"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "我的CUNCUR账号登那个网页版登不上去"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "登陆",
+            "entity": "item"
+          }
+        ],
+        "text": "我登陆半天登陆不上"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "登录",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "business",
+            "entity": "account_system"
+          },
+          {
+            "start": 25,
+            "end": 26,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "我要登录那个business，然后我现在问题是完全登不进去"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "text": "我登不上账号怎么办"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "text": "我登不上账号了"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "key",
+            "entity": "account_system"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "我的key账号系统登录不了了"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "账号",
+            "entity": "item"
+          }
+        ],
+        "text": "我想要重置账号"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "阿凡达",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "阿凡达系统登不上了"
+      },
+      {
+        "intent": "account_enquiry_log_in",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "box",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "登录",
+            "entity": "item"
+          }
+        ],
+        "text": "box系统登录不上了"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "9865",
+            "entity": "id_number"
+          }
+        ],
+        "text": "后四位是9865"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "671X",
+            "entity": "id_number"
+          }
+        ],
+        "text": "身份证后四位是671X"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "0078",
+            "entity": "id_number"
+          }
+        ],
+        "text": "后四位0078"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2440",
+            "entity": "id_number"
+          }
+        ],
+        "text": "2440呀"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "0035",
+            "entity": "id_number"
+          }
+        ],
+        "text": "0035啊"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "3588",
+            "entity": "id_number"
+          }
+        ],
+        "text": "身份证后四位3588"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "6755",
+            "entity": "id_number"
+          }
+        ],
+        "text": "是6755"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "0005",
+            "entity": "id_number"
+          }
+        ],
+        "text": "后四位0005啊"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "4639",
+            "entity": "id_number"
+          }
+        ],
+        "text": "后四位是4639呀"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "4090",
+            "entity": "id_number"
+          }
+        ],
+        "text": "哦，不好意思，刚才报错了，id后四位是4090"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "884X",
+            "entity": "id_number"
+          }
+        ],
+        "text": "刚才搞错了，我的ID是884X"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "7871",
+            "entity": "id_number"
+          }
+        ],
+        "text": "7871"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "3809",
+            "entity": "id_number"
+          }
+        ],
+        "text": "3809"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1258",
+            "entity": "id_number"
+          }
+        ],
+        "text": "1258"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "7552",
+            "entity": "id_number"
+          }
+        ],
+        "text": "7552"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2100",
+            "entity": "id_number"
+          }
+        ],
+        "text": "2100"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1771",
+            "entity": "id_number"
+          }
+        ],
+        "text": "1771"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "4343",
+            "entity": "id_number"
+          }
+        ],
+        "text": "4343"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "682X",
+            "entity": "id_number"
+          }
+        ],
+        "text": "682X"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1677",
+            "entity": "id_number"
+          }
+        ],
+        "text": "1677"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "0031",
+            "entity": "id_number"
+          }
+        ],
+        "text": "0031"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "9389",
+            "entity": "id_number"
+          }
+        ],
+        "text": "9389"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6518",
+            "entity": "id_number"
+          }
+        ],
+        "text": "6518"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2566",
+            "entity": "id_number"
+          }
+        ],
+        "text": "2566"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1857",
+            "entity": "id_number"
+          }
+        ],
+        "text": "1857"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "462X",
+            "entity": "id_number"
+          }
+        ],
+        "text": "462X"
+      },
+      {
+        "intent": "inform_id_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6796",
+            "entity": "id_number"
+          }
+        ],
+        "text": "6796"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "15860300736",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "电话是15860300736"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "18608068954",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "号码是18608068954"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "18979798407",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "电话18979798407"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "13545103394",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "我的号码是13545103394"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "13593009657",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "我电话是13593009657"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 1,
+            "end": 12,
+            "value": "13596009679",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "是13596009679"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "18768755463",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "电话号18768755463"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "18509797591",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "电话号是18509797591"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "13646377449",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "我的电话是13646377449"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "18726416663",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "电话号码18726416663"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "13664234818",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "手机号13664234818"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "15788334713",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "我手机是15788334713"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "13009038675",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "手机号码13009038675"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "13078442472",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "手机13078442472"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "13437664371",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "手机号是13437664371"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "15310872912",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哦，不好意思，刚才说错了，手机号是15310872912"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15551672687",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "15551672687"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "18914341282",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "18914341282"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15842580067",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "15842580067"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "13741787346",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "13741787346"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "18678906230",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "18678906230"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "18577255721",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "18577255721"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "18038030113",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "18038030113"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "13293381248",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "13293381248"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15249595672",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "15249595672"
+      },
+      {
+        "intent": "inform_phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15080667597",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "15080667597"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "MR",
+            "entity": "job_title"
+          }
+        ],
+        "text": "MR"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "地区经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "我是地区经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "销售专员",
+            "entity": "job_title"
+          }
+        ],
+        "text": "我是销售专员"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "大区经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "是大区经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "行政专员",
+            "entity": "job_title"
+          }
+        ],
+        "text": "职位是行政专员"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "商店总经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "我的职位是商店总经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "家装业务经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "家装业务经理啊"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "储备干部",
+            "entity": "job_title"
+          }
+        ],
+        "text": "储备干部呀"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "工程经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "职务是工程经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "value": "人力资源经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "职位人力资源经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "业务拓展专员",
+            "entity": "job_title"
+          }
+        ],
+        "text": "业务拓展专员"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "空间设计顾问",
+            "entity": "job_title"
+          }
+        ],
+        "text": "空间设计顾问"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "行政主管",
+            "entity": "job_title"
+          }
+        ],
+        "text": "行政主管"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "商店物业资产管理经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "商店物业资产管理经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "室内装潢设计师",
+            "entity": "job_title"
+          }
+        ],
+        "text": "室内装潢设计师"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "商务助理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "商务助理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "财务助理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "财务助理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "客户经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "客户经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "经理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "经理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "销售专员",
+            "entity": "job_title"
+          }
+        ],
+        "text": "销售专员"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "商务助理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "商务助理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "财务助理",
+            "entity": "job_title"
+          }
+        ],
+        "text": "财务助理"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "行政专员",
+            "entity": "job_title"
+          }
+        ],
+        "text": "行政专员"
+      },
+      {
+        "intent": "inform_job_title",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "业务拓展专员",
+            "entity": "job_title"
+          }
+        ],
+        "text": "业务拓展专员"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "赖闲",
+            "entity": "superior"
+          }
+        ],
+        "text": "我叫赖闲"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "杨鹏飞",
+            "entity": "superior"
+          }
+        ],
+        "text": "我的名字是杨鹏飞"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "刘建波",
+            "entity": "superior"
+          }
+        ],
+        "text": "名字是刘建波"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "张春龙",
+            "entity": "superior"
+          }
+        ],
+        "text": "名字张春龙"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "王刚",
+            "entity": "superior"
+          }
+        ],
+        "text": "我是王刚"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "贺凯曹",
+            "entity": "superior"
+          }
+        ],
+        "text": "我名字贺凯曹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "倪意会",
+            "entity": "superior"
+          }
+        ],
+        "text": "我名字是倪意会"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "边朝妮",
+            "entity": "superior"
+          }
+        ],
+        "text": "我名字叫边朝妮"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "柯艮东",
+            "entity": "superior"
+          }
+        ],
+        "text": "名字叫柯艮东"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "周美妙",
+            "entity": "superior"
+          }
+        ],
+        "text": "我上级是周美妙"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "王镁玉",
+            "entity": "superior"
+          }
+        ],
+        "text": "我的上级是王镁玉"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "袁年明",
+            "entity": "superior"
+          }
+        ],
+        "text": "我的领导叫袁年明"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "华忠显",
+            "entity": "superior"
+          }
+        ],
+        "text": "上级领导是华忠显"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "闫敬渊",
+            "entity": "superior"
+          }
+        ],
+        "text": "哦，我的上级是闫敬渊"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "黄双亮",
+            "entity": "superior"
+          }
+        ],
+        "text": "黄双亮"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赵彩花",
+            "entity": "superior"
+          }
+        ],
+        "text": "赵彩花"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李晋光",
+            "entity": "superior"
+          }
+        ],
+        "text": "李晋光"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈新娇",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈新娇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "汪美毅",
+            "entity": "superior"
+          }
+        ],
+        "text": "汪美毅"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林串红",
+            "entity": "superior"
+          }
+        ],
+        "text": "林串红"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "韩最娣",
+            "entity": "superior"
+          }
+        ],
+        "text": "韩最娣"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈烈珍",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈烈珍"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李襟汝",
+            "entity": "superior"
+          }
+        ],
+        "text": "李襟汝"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张精娟",
+            "entity": "superior"
+          }
+        ],
+        "text": "张精娟"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "宋英潇",
+            "entity": "superior"
+          }
+        ],
+        "text": "宋英潇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王大纯",
+            "entity": "superior"
+          }
+        ],
+        "text": "王大纯"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "戴杏冰",
+            "entity": "superior"
+          }
+        ],
+        "text": "戴杏冰"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "杨如亭",
+            "entity": "superior"
+          }
+        ],
+        "text": "杨如亭"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈世谊",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈世谊"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴相慧",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴相慧"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈讳萍",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈讳萍"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "付阿仁",
+            "entity": "superior"
+          }
+        ],
+        "text": "付阿仁"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陆诲申",
+            "entity": "superior"
+          }
+        ],
+        "text": "陆诲申"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "何能美",
+            "entity": "superior"
+          }
+        ],
+        "text": "何能美"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "武少峥",
+            "entity": "superior"
+          }
+        ],
+        "text": "武少峥"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "方珠利",
+            "entity": "superior"
+          }
+        ],
+        "text": "方珠利"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "崔静环",
+            "entity": "superior"
+          }
+        ],
+        "text": "崔静环"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "薛洪园",
+            "entity": "superior"
+          }
+        ],
+        "text": "薛洪园"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "钟添秀",
+            "entity": "superior"
+          }
+        ],
+        "text": "钟添秀"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邹尤捷",
+            "entity": "superior"
+          }
+        ],
+        "text": "邹尤捷"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "余云芬",
+            "entity": "superior"
+          }
+        ],
+        "text": "余云芬"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王曜新",
+            "entity": "superior"
+          }
+        ],
+        "text": "王曜新"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "党法伟",
+            "entity": "superior"
+          }
+        ],
+        "text": "党法伟"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王夫生",
+            "entity": "superior"
+          }
+        ],
+        "text": "王夫生"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "史小瑛",
+            "entity": "superior"
+          }
+        ],
+        "text": "史小瑛"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "程舒恒",
+            "entity": "superior"
+          }
+        ],
+        "text": "程舒恒"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周凝弟",
+            "entity": "superior"
+          }
+        ],
+        "text": "周凝弟"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张烨叶",
+            "entity": "superior"
+          }
+        ],
+        "text": "张烨叶"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "章穆苏",
+            "entity": "superior"
+          }
+        ],
+        "text": "章穆苏"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈玉媚",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈玉媚"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "薛似洲",
+            "entity": "superior"
+          }
+        ],
+        "text": "薛似洲"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴彦蓉",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴彦蓉"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "魏寿娟",
+            "entity": "superior"
+          }
+        ],
+        "text": "魏寿娟"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周心年",
+            "entity": "superior"
+          }
+        ],
+        "text": "周心年"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赖佳鹃",
+            "entity": "superior"
+          }
+        ],
+        "text": "赖佳鹃"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "洪惟堞",
+            "entity": "superior"
+          }
+        ],
+        "text": "洪惟堞"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "刘细妮",
+            "entity": "superior"
+          }
+        ],
+        "text": "刘细妮"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王祖蓬",
+            "entity": "superior"
+          }
+        ],
+        "text": "王祖蓬"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "江通文",
+            "entity": "superior"
+          }
+        ],
+        "text": "江通文"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "徐井荣",
+            "entity": "superior"
+          }
+        ],
+        "text": "徐井荣"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴洪欢",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴洪欢"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "叶淑屏",
+            "entity": "superior"
+          }
+        ],
+        "text": "叶淑屏"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张振洪",
+            "entity": "superior"
+          }
+        ],
+        "text": "张振洪"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周千稳",
+            "entity": "superior"
+          }
+        ],
+        "text": "周千稳"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "郑素月",
+            "entity": "superior"
+          }
+        ],
+        "text": "郑素月"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "蒋小狗",
+            "entity": "superior"
+          }
+        ],
+        "text": "蒋小狗"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周富全",
+            "entity": "superior"
+          }
+        ],
+        "text": "周富全"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "朱迅泽",
+            "entity": "superior"
+          }
+        ],
+        "text": "朱迅泽"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "杨光昊",
+            "entity": "superior"
+          }
+        ],
+        "text": "杨光昊"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "裘国妃",
+            "entity": "superior"
+          }
+        ],
+        "text": "裘国妃"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "瞿贞洁",
+            "entity": "superior"
+          }
+        ],
+        "text": "瞿贞洁"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "侯渊铮",
+            "entity": "superior"
+          }
+        ],
+        "text": "侯渊铮"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "拉次尔",
+            "entity": "superior"
+          }
+        ],
+        "text": "拉次尔"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "刘应洁",
+            "entity": "superior"
+          }
+        ],
+        "text": "刘应洁"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "徐毅满",
+            "entity": "superior"
+          }
+        ],
+        "text": "徐毅满"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张韵啸",
+            "entity": "superior"
+          }
+        ],
+        "text": "张韵啸"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "叶菊米",
+            "entity": "superior"
+          }
+        ],
+        "text": "叶菊米"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈浪琴",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈浪琴"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "胡传丽",
+            "entity": "superior"
+          }
+        ],
+        "text": "胡传丽"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "于承根",
+            "entity": "superior"
+          }
+        ],
+        "text": "于承根"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王清娣",
+            "entity": "superior"
+          }
+        ],
+        "text": "王清娣"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "范菲芸",
+            "entity": "superior"
+          }
+        ],
+        "text": "范菲芸"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "许束萍",
+            "entity": "superior"
+          }
+        ],
+        "text": "许束萍"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "谭存茂",
+            "entity": "superior"
+          }
+        ],
+        "text": "谭存茂"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "马云淑",
+            "entity": "superior"
+          }
+        ],
+        "text": "马云淑"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王火华",
+            "entity": "superior"
+          }
+        ],
+        "text": "王火华"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王风进",
+            "entity": "superior"
+          }
+        ],
+        "text": "王风进"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "罗满兰",
+            "entity": "superior"
+          }
+        ],
+        "text": "罗满兰"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "段懿刚",
+            "entity": "superior"
+          }
+        ],
+        "text": "段懿刚"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "关巧妹",
+            "entity": "superior"
+          }
+        ],
+        "text": "关巧妹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "梁保祖",
+            "entity": "superior"
+          }
+        ],
+        "text": "梁保祖"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "列友回",
+            "entity": "superior"
+          }
+        ],
+        "text": "列友回"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "杨采莲",
+            "entity": "superior"
+          }
+        ],
+        "text": "杨采莲"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林授勇",
+            "entity": "superior"
+          }
+        ],
+        "text": "林授勇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴秀冬",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴秀冬"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周锡娅",
+            "entity": "superior"
+          }
+        ],
+        "text": "周锡娅"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "孔智武",
+            "entity": "superior"
+          }
+        ],
+        "text": "孔智武"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "庄進锥",
+            "entity": "superior"
+          }
+        ],
+        "text": "庄進锥"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "胡琴风",
+            "entity": "superior"
+          }
+        ],
+        "text": "胡琴风"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "杨丽香",
+            "entity": "superior"
+          }
+        ],
+        "text": "杨丽香"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张均洁",
+            "entity": "superior"
+          }
+        ],
+        "text": "张均洁"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "翟言正",
+            "entity": "superior"
+          }
+        ],
+        "text": "翟言正"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林育宪",
+            "entity": "superior"
+          }
+        ],
+        "text": "林育宪"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张皓萌",
+            "entity": "superior"
+          }
+        ],
+        "text": "张皓萌"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "刘艺如",
+            "entity": "superior"
+          }
+        ],
+        "text": "刘艺如"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "沈奕慧",
+            "entity": "superior"
+          }
+        ],
+        "text": "沈奕慧"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "容展红",
+            "entity": "superior"
+          }
+        ],
+        "text": "容展红"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "韩姗彬",
+            "entity": "superior"
+          }
+        ],
+        "text": "韩姗彬"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "胡维集",
+            "entity": "superior"
+          }
+        ],
+        "text": "胡维集"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "方以帆",
+            "entity": "superior"
+          }
+        ],
+        "text": "方以帆"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "温品人",
+            "entity": "superior"
+          }
+        ],
+        "text": "温品人"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "姜转次",
+            "entity": "superior"
+          }
+        ],
+        "text": "姜转次"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "童俪琳",
+            "entity": "superior"
+          }
+        ],
+        "text": "童俪琳"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "卞船章",
+            "entity": "superior"
+          }
+        ],
+        "text": "卞船章"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王赢宇",
+            "entity": "superior"
+          }
+        ],
+        "text": "王赢宇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "姚琪翔",
+            "entity": "superior"
+          }
+        ],
+        "text": "姚琪翔"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "项灵羽",
+            "entity": "superior"
+          }
+        ],
+        "text": "项灵羽"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "董相声",
+            "entity": "superior"
+          }
+        ],
+        "text": "董相声"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邱顯龍",
+            "entity": "superior"
+          }
+        ],
+        "text": "邱顯龍"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林建评",
+            "entity": "superior"
+          }
+        ],
+        "text": "林建评"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张林彪",
+            "entity": "superior"
+          }
+        ],
+        "text": "张林彪"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "苏天补",
+            "entity": "superior"
+          }
+        ],
+        "text": "苏天补"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "黃燁",
+            "entity": "superior"
+          }
+        ],
+        "text": "黃燁"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "黄宗友",
+            "entity": "superior"
+          }
+        ],
+        "text": "黄宗友"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王巧连",
+            "entity": "superior"
+          }
+        ],
+        "text": "王巧连"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赵口妞",
+            "entity": "superior"
+          }
+        ],
+        "text": "赵口妞"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陶邢莹",
+            "entity": "superior"
+          }
+        ],
+        "text": "陶邢莹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "胡立聪",
+            "entity": "superior"
+          }
+        ],
+        "text": "胡立聪"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "唐承民",
+            "entity": "superior"
+          }
+        ],
+        "text": "唐承民"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李想春",
+            "entity": "superior"
+          }
+        ],
+        "text": "李想春"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周远杰",
+            "entity": "superior"
+          }
+        ],
+        "text": "周远杰"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "裘菊娥",
+            "entity": "superior"
+          }
+        ],
+        "text": "裘菊娥"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈兆芬",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈兆芬"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "车呈显",
+            "entity": "superior"
+          }
+        ],
+        "text": "车呈显"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "胥筱汀",
+            "entity": "superior"
+          }
+        ],
+        "text": "胥筱汀"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "史大梅",
+            "entity": "superior"
+          }
+        ],
+        "text": "史大梅"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "岳光翠",
+            "entity": "superior"
+          }
+        ],
+        "text": "岳光翠"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "于善谦",
+            "entity": "superior"
+          }
+        ],
+        "text": "于善谦"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "毛柔翰",
+            "entity": "superior"
+          }
+        ],
+        "text": "毛柔翰"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "纪田元",
+            "entity": "superior"
+          }
+        ],
+        "text": "纪田元"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林康勇",
+            "entity": "superior"
+          }
+        ],
+        "text": "林康勇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王术文",
+            "entity": "superior"
+          }
+        ],
+        "text": "王术文"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "曹样婷",
+            "entity": "superior"
+          }
+        ],
+        "text": "曹样婷"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王知怡",
+            "entity": "superior"
+          }
+        ],
+        "text": "王知怡"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张钰晨",
+            "entity": "superior"
+          }
+        ],
+        "text": "张钰晨"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "曾豪利",
+            "entity": "superior"
+          }
+        ],
+        "text": "曾豪利"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "蒋添奇",
+            "entity": "superior"
+          }
+        ],
+        "text": "蒋添奇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "俞义好",
+            "entity": "superior"
+          }
+        ],
+        "text": "俞义好"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陈进安",
+            "entity": "superior"
+          }
+        ],
+        "text": "陈进安"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陆祖驹",
+            "entity": "superior"
+          }
+        ],
+        "text": "陆祖驹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "孔祥媚",
+            "entity": "superior"
+          }
+        ],
+        "text": "孔祥媚"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "卢妙葵",
+            "entity": "superior"
+          }
+        ],
+        "text": "卢妙葵"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李向珍",
+            "entity": "superior"
+          }
+        ],
+        "text": "李向珍"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "温建深",
+            "entity": "superior"
+          }
+        ],
+        "text": "温建深"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "牛琳婷",
+            "entity": "superior"
+          }
+        ],
+        "text": "牛琳婷"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林中冠",
+            "entity": "superior"
+          }
+        ],
+        "text": "林中冠"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邓忠伦",
+            "entity": "superior"
+          }
+        ],
+        "text": "邓忠伦"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "谢荣胜",
+            "entity": "superior"
+          }
+        ],
+        "text": "谢荣胜"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "贾羽秀",
+            "entity": "superior"
+          }
+        ],
+        "text": "贾羽秀"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邹佶彦",
+            "entity": "superior"
+          }
+        ],
+        "text": "邹佶彦"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "顾承来",
+            "entity": "superior"
+          }
+        ],
+        "text": "顾承来"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴彬茜",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴彬茜"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "田朝焕",
+            "entity": "superior"
+          }
+        ],
+        "text": "田朝焕"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周凤丝",
+            "entity": "superior"
+          }
+        ],
+        "text": "周凤丝"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "马栩梁",
+            "entity": "superior"
+          }
+        ],
+        "text": "马栩梁"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王雨茹",
+            "entity": "superior"
+          }
+        ],
+        "text": "王雨茹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "卢月珠",
+            "entity": "superior"
+          }
+        ],
+        "text": "卢月珠"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "铁苇禄",
+            "entity": "superior"
+          }
+        ],
+        "text": "铁苇禄"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李观发",
+            "entity": "superior"
+          }
+        ],
+        "text": "李观发"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "肖昆玲",
+            "entity": "superior"
+          }
+        ],
+        "text": "肖昆玲"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周琼新",
+            "entity": "superior"
+          }
+        ],
+        "text": "周琼新"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "曹钟匀",
+            "entity": "superior"
+          }
+        ],
+        "text": "曹钟匀"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张平岩",
+            "entity": "superior"
+          }
+        ],
+        "text": "张平岩"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "陆少娟",
+            "entity": "superior"
+          }
+        ],
+        "text": "陆少娟"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "孟召强",
+            "entity": "superior"
+          }
+        ],
+        "text": "孟召强"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "尹晓锰",
+            "entity": "superior"
+          }
+        ],
+        "text": "尹晓锰"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邓名滢",
+            "entity": "superior"
+          }
+        ],
+        "text": "邓名滢"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "高增现",
+            "entity": "superior"
+          }
+        ],
+        "text": "高增现"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "孙卓闵",
+            "entity": "superior"
+          }
+        ],
+        "text": "孙卓闵"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "曾菲茹",
+            "entity": "superior"
+          }
+        ],
+        "text": "曾菲茹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赵叶仙",
+            "entity": "superior"
+          }
+        ],
+        "text": "赵叶仙"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "任或君",
+            "entity": "superior"
+          }
+        ],
+        "text": "任或君"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "彭芳蔚",
+            "entity": "superior"
+          }
+        ],
+        "text": "彭芳蔚"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "匡莹辇",
+            "entity": "superior"
+          }
+        ],
+        "text": "匡莹辇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张凤秀",
+            "entity": "superior"
+          }
+        ],
+        "text": "张凤秀"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "郝能安",
+            "entity": "superior"
+          }
+        ],
+        "text": "郝能安"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "余蝶云",
+            "entity": "superior"
+          }
+        ],
+        "text": "余蝶云"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张馨九",
+            "entity": "superior"
+          }
+        ],
+        "text": "张馨九"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "袁艺凤",
+            "entity": "superior"
+          }
+        ],
+        "text": "袁艺凤"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李红雅",
+            "entity": "superior"
+          }
+        ],
+        "text": "李红雅"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "鲁蒺藜",
+            "entity": "superior"
+          }
+        ],
+        "text": "鲁蒺藜"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴朝佑",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴朝佑"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林信鋒",
+            "entity": "superior"
+          }
+        ],
+        "text": "林信鋒"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邹清胜",
+            "entity": "superior"
+          }
+        ],
+        "text": "邹清胜"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "董亮宏",
+            "entity": "superior"
+          }
+        ],
+        "text": "董亮宏"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "庄有山",
+            "entity": "superior"
+          }
+        ],
+        "text": "庄有山"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "吴踊",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴踊"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "鞠冰航",
+            "entity": "superior"
+          }
+        ],
+        "text": "鞠冰航"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李孔玖",
+            "entity": "superior"
+          }
+        ],
+        "text": "李孔玖"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "骆打英",
+            "entity": "superior"
+          }
+        ],
+        "text": "骆打英"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李毓堂",
+            "entity": "superior"
+          }
+        ],
+        "text": "李毓堂"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "郑玲漪",
+            "entity": "superior"
+          }
+        ],
+        "text": "郑玲漪"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "袁效生",
+            "entity": "superior"
+          }
+        ],
+        "text": "袁效生"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "代凤乐",
+            "entity": "superior"
+          }
+        ],
+        "text": "代凤乐"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林经甫",
+            "entity": "superior"
+          }
+        ],
+        "text": "林经甫"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "吴泞宇",
+            "entity": "superior"
+          }
+        ],
+        "text": "吴泞宇"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "左太顾",
+            "entity": "superior"
+          }
+        ],
+        "text": "左太顾"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张家虹",
+            "entity": "superior"
+          }
+        ],
+        "text": "张家虹"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "劳坦明",
+            "entity": "superior"
+          }
+        ],
+        "text": "劳坦明"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "温丹媚",
+            "entity": "superior"
+          }
+        ],
+        "text": "温丹媚"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "邹伦芝",
+            "entity": "superior"
+          }
+        ],
+        "text": "邹伦芝"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "刘兆奎",
+            "entity": "superior"
+          }
+        ],
+        "text": "刘兆奎"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "林钧湖",
+            "entity": "superior"
+          }
+        ],
+        "text": "林钧湖"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "刘莺莉",
+            "entity": "superior"
+          }
+        ],
+        "text": "刘莺莉"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赵小法",
+            "entity": "superior"
+          }
+        ],
+        "text": "赵小法"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "王幸鸿",
+            "entity": "superior"
+          }
+        ],
+        "text": "王幸鸿"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "任雨荐",
+            "entity": "superior"
+          }
+        ],
+        "text": "任雨荐"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "李卜伟",
+            "entity": "superior"
+          }
+        ],
+        "text": "李卜伟"
+      },
+      {
+        "intent": "inform_superior",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "戴天广",
+            "entity": "superior"
+          }
+        ],
+        "text": "戴天广"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "KFGB375",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "账号是KFGB375"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "KBQS510",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "账号KBQS510"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "KDBZ274",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "我的账户是KDBZ274"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "KFRC876",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "账户是KFRC876"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "KFRC115",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "我的账号KFRC115"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "KFGB348",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "我的账户KFGB348"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "KBQS890",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "账户KBQS890"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "KDBZ809",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "我的账号是KDBZ809"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 1,
+            "end": 8,
+            "value": "KFRC326",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "是KFRC326"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "KFRC723",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "我账号KFRC723"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "KFRC759",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "我账户KFRC759"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "KDBZ115",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "哦，错了，我的账号是KDBZ115"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "KFGB120",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "不好意思，刚才理解错了，我的key账号是KFGB120"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "KFRC184",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "KFRC184"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "ZFYM469",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "ZFYM469"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "IRNP864",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "IRNP864"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "STCJ517",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "STCJ517"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "DYUL761",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "DYUL761"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "DQOH952",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "DQOH952"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "HJKT235",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "HJKT235"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "URCY172",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "URCY172"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "KYTV369",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "KYTV369"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "PHRZ916",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "PHRZ916"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "DBNF617",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "DBNF617"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "VWJK748",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "VWJK748"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "LKDW718",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "LKDW718"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "ZKAI591",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "ZKAI591"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "WXIO861",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "WXIO861"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "ARHQ732",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "ARHQ732"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "IZWK634",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "IZWK634"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "LBJR689",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "LBJR689"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "MJZQ932",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "MJZQ932"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "UNYC635",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "UNYC635"
+      },
+      {
+        "intent": "inform_key_account_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "MDKW683",
+            "entity": "key_account_number"
+          }
+        ],
+        "text": "MDKW683"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "key",
+            "entity": "account_system"
+          }
+        ],
+        "text": "key账户"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "阿凡达",
+            "entity": "account_system"
+          }
+        ],
+        "text": "阿凡达系统"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "key",
+            "entity": "account_system"
+          }
+        ],
+        "text": "key"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "box",
+            "entity": "account_system"
+          }
+        ],
+        "text": "box系统"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "key",
+            "entity": "account_system"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "重置key密码"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "登录",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "阿凡达",
+            "entity": "account_system"
+          }
+        ],
+        "text": "登不了阿凡达"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "阿凡达",
+            "entity": "account_system"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "阿凡达密码忘了"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "box",
+            "entity": "account_system"
+          }
+        ],
+        "text": "box啊"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "box",
+            "entity": "account_system"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "box的密码"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "阿凡达",
+            "entity": "account_system"
+          }
+        ],
+        "text": "阿凡达呀"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "box",
+            "entity": "account_system"
+          }
+        ],
+        "text": "box"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "key",
+            "entity": "account_system"
+          }
+        ],
+        "text": "忘了key的"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "box",
+            "entity": "account_system"
+          }
+        ],
+        "text": "哦，刚才说错了，系统是box"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "key",
+            "entity": "account_system"
+          }
+        ],
+        "text": "key的"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "阿凡达",
+            "entity": "account_system"
+          }
+        ],
+        "text": "阿凡达的"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "box",
+            "entity": "account_system"
+          }
+        ],
+        "text": "box的"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "key",
+            "entity": "account_system"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "key的密码"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "key",
+            "entity": "account_system"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "密码",
+            "entity": "item"
+          }
+        ],
+        "text": "key系统的密码"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "阿凡达",
+            "entity": "account_system"
+          }
+        ],
+        "text": "阿凡达系统的"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "box",
+            "entity": "account_system"
+          }
+        ],
+        "text": "是box系统"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "阿凡达",
+            "entity": "account_system"
+          }
+        ],
+        "text": "是阿凡达系统"
+      },
+      {
+        "intent": "inform_system",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "key",
+            "entity": "account_system"
+          }
+        ],
+        "text": "是key账户"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": " id_number",
+        "pattern": "[0-9]{1,3}[0-9xX]"
+      },
+      {
+        "name": " phone_number",
+        "pattern": "[0-9]{11}"
+      },
+      {
+        "name": "email_groupname",
+        "pattern": "\\d*"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "创建",
+        "synonyms": [
+          "新建",
+          "建"
+        ]
+      },
+      {
+        "value": "删除",
+        "synonyms": [
+          "删了",
+          "删掉",
+          "删"
+        ]
+      },
+      {
+        "value": "预定",
+        "synonyms": [
+          "发起",
+          "定",
+          "预约"
+        ]
+      },
+      {
+        "value": "关联",
+        "synonyms": [
+          "同步",
+          "绑定"
+        ]
+      },
+      {
+        "value": "链接",
+        "synonyms": [
+          "连接"
+        ]
+      },
+      {
+        "value": "手机",
+        "synonyms": [
+          "移动设备"
+        ]
+      },
+      {
+        "value": "发送",
+        "synonyms": [
+          "发"
+        ]
+      },
+      {
+        "value": "收到",
+        "synonyms": [
+          "收"
+        ]
+      },
+      {
+        "value": "修改",
+        "synonyms": [
+          "改",
+          "换"
+        ]
+      },
+      {
+        "value": "个性签名",
+        "synonyms": [
+          "签名"
+        ]
+      },
+      {
+        "value": "提示",
+        "synonyms": [
+          "告诉"
+        ]
+      },
+      {
+        "value": "好了",
+        "synonyms": [
+          "没有问题"
+        ]
+      },
+      {
+        "value": "邮箱",
+        "synonyms": [
+          "邮件",
+          "OUTLOOK",
+          "电子邮件",
+          "Outlook",
+          "outlook"
+        ]
+      },
+      {
+        "value": "邮箱群组",
+        "synonyms": [
+          "群组",
+          "群"
+        ]
+      },
+      {
+        "value": "密码",
+        "synonyms": [
+          "账号密码",
+          "账户密码",
+          "系统密码"
+        ]
+      },
+      {
+        "value": "登录",
+        "synonyms": [
+          "登"
+        ]
+      }
+    ]
+  }
+}
