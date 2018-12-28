@@ -1,0 +1,866 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "薯条",
+            "entity": "food"
+          }
+        ],
+        "text": "再来一份薯条"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "薯条",
+            "entity": "food"
+          }
+        ],
+        "text": "我还需要一份薯条"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "两份",
+            "entity": "quan"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "薯条",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想再来两份薯条"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "可乐",
+            "entity": "food"
+          }
+        ],
+        "text": "再来一杯可乐，谢谢"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "可乐",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想要一杯可乐"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "可乐",
+            "entity": "food"
+          }
+        ],
+        "text": "我还需要一杯冰可乐"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "一个",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "汉堡",
+            "entity": "food"
+          }
+        ],
+        "text": "再来一个汉堡吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "两个",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "汉堡",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想要两个汉堡"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "点个",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "汉堡",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想再点个汉堡"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "奶茶",
+            "entity": "food"
+          }
+        ],
+        "text": "再来一杯奶茶吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "奶茶",
+            "entity": "food"
+          }
+        ],
+        "text": "嗯，我还需要一杯奶茶"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "奶茶",
+            "entity": "food"
+          }
+        ],
+        "text": "我想再点一杯奶茶"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "两个",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "甜筒",
+            "entity": "food"
+          }
+        ],
+        "text": "再来两个甜筒"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一个",
+            "entity": "quan"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "甜筒",
+            "entity": "food"
+          }
+        ],
+        "text": "嗯，我还想要一个甜筒"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "一个",
+            "entity": "quan"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "甜筒",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想再点一个甜筒"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "爆米花",
+            "entity": "food"
+          }
+        ],
+        "text": "再来一份爆米花吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "爆米花",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想要一份爆米花"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "爆米花",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想再点一份爆米花"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "两份",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "鸡翅",
+            "entity": "food"
+          }
+        ],
+        "text": "再来两份鸡翅打包带走"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "点份",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "鸡翅",
+            "entity": "food"
+          }
+        ],
+        "text": "我还想再点份鸡翅"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "鸡翅",
+            "entity": "food"
+          }
+        ],
+        "text": "我还要一份鸡翅"
+      },
+      {
+        "intent": "deny",
+        "text": "不用了"
+      },
+      {
+        "intent": "deny",
+        "text": "不需要"
+      },
+      {
+        "intent": "deny",
+        "text": "暂时就这样吧"
+      },
+      {
+        "intent": "deny",
+        "text": "暂时不需要了"
+      },
+      {
+        "intent": "deny",
+        "text": "先这样吧"
+      },
+      {
+        "intent": "deny",
+        "text": "先点这么多吧，不够再点"
+      },
+      {
+        "intent": "deny",
+        "text": "不用了，这些足够了"
+      },
+      {
+        "intent": "deny",
+        "text": "不必了，谢谢"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "薯条",
+            "entity": "food"
+          }
+        ],
+        "text": "一份薯条"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "薯条",
+            "entity": "food"
+          }
+        ],
+        "text": "我想要一份薯条"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "薯条",
+            "entity": "food"
+          }
+        ],
+        "text": "我想点一份薯条"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "两个",
+            "entity": "quan"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "汉堡",
+            "entity": "food"
+          }
+        ],
+        "text": "来两个汉堡吧"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "一个",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "汉堡",
+            "entity": "food"
+          }
+        ],
+        "text": "我想要点一个汉堡"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一个",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "汉堡",
+            "entity": "food"
+          }
+        ],
+        "text": "我想点一个汉堡"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "奶茶",
+            "entity": "food"
+          }
+        ],
+        "text": "一杯奶茶，打包带走"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "两杯",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "奶茶",
+            "entity": "food"
+          }
+        ],
+        "text": "我想要两杯奶茶"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "奶茶",
+            "entity": "food"
+          }
+        ],
+        "text": "我想点一杯奶茶"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "可乐",
+            "entity": "food"
+          }
+        ],
+        "text": "一杯可乐，加冰"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "可乐",
+            "entity": "food"
+          }
+        ],
+        "text": "我想要一杯冰可乐"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一杯",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "可乐",
+            "entity": "food"
+          }
+        ],
+        "text": "我想点一杯可乐"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "来个",
+            "entity": "quan"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "甜筒",
+            "entity": "food"
+          }
+        ],
+        "text": "来个甜筒"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "买个",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "甜筒",
+            "entity": "food"
+          }
+        ],
+        "text": "我想要买个甜筒"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一个",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "甜筒",
+            "entity": "food"
+          }
+        ],
+        "text": "我要点一个甜筒"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "爆米花",
+            "entity": "food"
+          }
+        ],
+        "text": "给我来一份爆米花吧"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "爆米花",
+            "entity": "food"
+          }
+        ],
+        "text": "我要点一份爆米花"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "爆米花",
+            "entity": "food"
+          }
+        ],
+        "text": "我想点一份爆米花"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一份",
+            "entity": "quan"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "鸡翅",
+            "entity": "food"
+          }
+        ],
+        "text": "一份鸡翅，谢谢"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "来份",
+            "entity": "quan"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "鸡翅",
+            "entity": "food"
+          }
+        ],
+        "text": "我想要来份鸡翅"
+      },
+      {
+        "intent": "kind_answer",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "点份",
+            "entity": "quan"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "鸡翅",
+            "entity": "food"
+          }
+        ],
+        "text": "我要点份鸡翅"
+      },
+      {
+        "intent": "order_meal",
+        "text": "我要点餐"
+      },
+      {
+        "intent": "order_meal",
+        "text": "我想点份外卖"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "1",
+        "synonyms": [
+          "一份",
+          "份",
+          "一杯",
+          "杯",
+          "一个",
+          "个",
+          "来杯",
+          "买杯",
+          "点杯",
+          "来个",
+          "买个",
+          "点个",
+          "来份",
+          "买份",
+          "点份"
+        ]
+      },
+      {
+        "value": "2",
+        "synonyms": [
+          "两份",
+          "两杯",
+          "两个"
+        ]
+      }
+    ]
+  }
+}

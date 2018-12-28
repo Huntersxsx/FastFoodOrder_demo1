@@ -1,0 +1,52 @@
+entities:
+  - food
+  - quan
+
+intents:
+  - greet
+  - goodbye
+  - confirm
+  - deny
+  - order_meal
+  - kind_answer
+ 
+actions:
+  - utter_default
+  - utter_greet
+  - utter_goodbye
+  - utter_help
+  - utter_ask_kind
+  - utter_ask_again
+  - utter_wait
+  - utter_bless
+  - action_cal_money
+
+templates:
+  utter_default:
+    - "您好, 我没有听清。"
+    - "我有点迷糊,能再说一遍吗?"
+    - "我不明白,请再说一次吧。"
+  utter_greet:
+    - "您好!"
+  utter_goodbye:
+    - "再见。"
+    - "bye bye。"
+    - "bye, 为您服务很愉快。"
+    - "慢走, 一路顺风。"
+  utter_help:
+    - "请问有什么可以帮助您的吗？"
+    - "请问有什么需要帮助的吗？"
+  utter_ask_kind:
+    - "好的，请问您需要些什么呢？"
+    - "您好，这是我们的菜单，请问您想要点些什么呢？"
+  utter_ask_again:
+    - "好的，请问您还需要什么吗？"
+  utter_wait:
+    - "请您稍等片刻。"
+    - "请您先入座，稍等我们会给您上餐。"
+  utter_bless:
+    - "祝您用餐愉快。"
+
+
+
+
