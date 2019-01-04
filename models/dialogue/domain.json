@@ -19,6 +19,8 @@
     "prev_utter_ask_again",
     "prev_utter_wait",
     "prev_utter_bless",
-    "prev_action_cal_money"
+    "prev_action_answer",
+    "prev_action_cal_money",
+    "prev_action_show_menu"
   ]
 }

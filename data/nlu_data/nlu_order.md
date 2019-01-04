@@ -32,6 +32,18 @@
 - 再来[两份](quan)[鸡翅](food)打包带走
 - 我还想再[点份](quan)[鸡翅](food)
 - 我还要[一份](quan)[鸡翅](food)
+- 再来[一个](quan)[巨无霸](food)
+- 我还需要[一个](quan)[巨无霸](food)
+- 我还想再来[两个](quan)[巨无霸](food)
+- 再来[一个](quan)[套餐A](food)
+- 我还需要[一份](quan)[套餐A](food)
+- 我还想再来[两份](quan)[套餐A](food)
+- 再来[一个](quan)[套餐B](food)
+- 我还需要[一份](quan)[套餐B](food)
+- 我还想再来[两个](quan)[套餐B](food)
+- 再来[一份](quan)[套餐C](food)
+- 我还需要[一个](quan)[套餐C](food)
+- 我还想再来[两份](quan)[套餐C](food)
 
 ## intent: deny
 - 不用了
@@ -42,6 +54,8 @@
 - 先点这么多吧，不够再点
 - 不用了，这些足够了
 - 不必了，谢谢
+- 我不要了
+- 不要了
 
 
 ## intent: kind_answer
@@ -66,11 +80,36 @@
 - [一份](quan)[鸡翅](food)，谢谢
 - 我想要[来份](quan)[鸡翅](food)
 - 我要[点份](quan)[鸡翅](food)
-
+- [一个](quan)[巨无霸](food)，谢谢
+- 我想要[一个](quan)[巨无霸](food)
+- 我要[点个](quan)[巨无霸](food)
+- [一份](quan)[套餐A](food)，谢谢
+- 我想要[来份](quan)[套餐A](food)
+- 我要[点个](quan)[套餐A](food)
+- [一份](quan)[套餐B](food)，谢谢
+- 我想要[来个](quan)[套餐B](food)
+- 我要[点份](quan)[套餐B](food)
+- [一份](quan)[套餐C](food)，谢谢
+- 我想要[来个](quan)[套餐C](food)
+- 我要[点份](quan)[套餐C](food)
+- 我要[一个](quan)[汉堡](food)，[一杯](quan)[可乐](food)，再来[一份](quan)[鸡翅](food)
+- 我要[一个](quan)[汉堡](food)和[一个](quan)[甜筒](food)
+- 我想要[一个](quan)[巨无霸](food)还有[一杯](quan)[可乐](food)
+- 我想要[一个](quan)[汉堡](food)，再来[一份](quan)[爆米花](food)吧
+- 我想要[一杯](quan)[奶茶](food)，再来[一个](quan)[汉堡](food)
+- 我想要[一个](quan)[套餐A](food)，再加[一个](quan)[甜筒](food)
+- 我想要[一份](quan)[鸡翅](food)，再来[一个](quan)[套餐B](food)
+- 我要[两份](quan)[薯条](food)，再来[两杯](quan)[可乐](food)
+- 我要[两个](quan)[汉堡](food)，[两杯](quan)[可乐](food)和[一个](quan)[甜筒](food)
+- 我想要[一份](quan)[爆米花](food)加[两个](quan)[汉堡](food)
+- [一个](quan)[汉堡](food)，[一份](quan)[鸡翅](food)和[一个](quan)[甜筒](food)
+- 我要[一个](quan)[汉堡](food)、[一份](quan)[鸡翅](food)、[一个](quan)[甜筒](food)和[一份](quan)[爆米花](food)
+- 我要[两个](quan)[汉堡](food)、[一份](quan)[鸡翅](food)、[两杯](quan)[可乐](food)和[一个](quan)[巨无霸](food)
 
 ## intent: order_meal
 - 我要点餐
-- 我想点份外卖
+- 我想看一下你们的菜单
+- 有菜单么？
 
 ## synonym:1
 - 一份
